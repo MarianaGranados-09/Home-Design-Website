@@ -177,4 +177,17 @@ img:hover{
     /* opacity: 100%; */
     background-color: #bfacc8;
 }
+/* 
+Footer section */
+.footer-section{
+    display: flex;
+    justify-content: space-around;
+    background-color: goldenrod;
+    padding: 1.5rem;
+    font-size: 20px;
+    font-family: monospace;
+    opacity: 80%;
+}
+
+
 
