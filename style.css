@@ -123,3 +123,58 @@ button:hover span{
 button:hover{
     border: none;
 }
+
+/* Second Banner */
+.banner-2{
+    width: 100%;
+    height: 150vh;
+    background-image: linear-gradient(rgba(0,0,0,0.75),rgba(0,0,0,0.75)),url(background2.jpg);
+    background-size: cover;
+    background-position: center;
+    /* margin-top: 1px; */
+}
+.kitchen-section{
+    display: flex;
+    justify-content: center;
+    padding-top: 7vh;
+    color: #fff;
+    font-size: 24px;
+    letter-spacing: 2vh;
+    text-transform: uppercase;
+}
+.container{
+    /* display: flex;
+    justify-content: space-around; */
+    padding-top: 10vh;
+    display: grid;
+    /* grid-template-rows: 200px 200px; */
+    grid-template-columns: 60vh 60vh;
+    text-align: center;
+    /* gap: 3rem; */
+    justify-content: center;
+}
+.item{
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 22px;
+    border: 2px solid #095256;
+    /* width: 40vh; */
+    margin: 2rem;
+    background-color: #095256;
+    border-radius: 4px;
+    padding-top: 1rem;
+    opacity: 80%;
+}
+img{
+    height: 60vh;
+    padding: 30px 5px 30px 5px;
+    
+}
+img:hover{
+    opacity: 90%;
+}
+.item:hover{
+    /* opacity: 100%; */
+    background-color: #bfacc8;
+}
+
