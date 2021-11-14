@@ -131,6 +131,7 @@ button:hover{
     background-image: linear-gradient(rgba(0,0,0,0.75),rgba(0,0,0,0.75)),url(background2.jpg);
     background-size: cover;
     background-position: center;
+    padding-bottom: 1rem;
     /* margin-top: 1px; */
 }
  .title{
@@ -159,8 +160,8 @@ button:hover{
  }
  img{
    height: 30rem;
-   padding-top: 3rem;
-   padding-bottom: 2rem;
+   padding-top: 1rem;
+   padding-bottom: 1rem;
  }
 /* Footer section */ 
 .footer-section{
@@ -171,6 +172,7 @@ button:hover{
     font-size: 20px;
     font-family: monospace;
     opacity: 80%;
+    padding-top: 2rem;
 }
 
 
