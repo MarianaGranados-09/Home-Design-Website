@@ -35,7 +35,8 @@ a{
 .logo{
     display: flex;
     align-items: center;
-    padding-left: 5rem;
+    justify-self:flex-start;
+    padding-left: 2rem;
     padding-top: 1rem;
     /* justify-content: center; */
     font-size: xx-large;
